@@ -5,7 +5,7 @@ import "./SignInStyle.css";
 function Signin() {
   return (
     <Layout>
-      <main>
+      {/* <main> */}
       <div className="login-box">
         <h2>Login</h2>
         <form>
@@ -26,7 +26,7 @@ function Signin() {
           </a>
         </form>
       </div>
-      </main>
+      {/* </main> */}
       
     </Layout>
   );

@@ -5,7 +5,10 @@ import Layout from '../layout/Layout'
 function HomePage() {
   return (
     <Layout>
+      <main>
+
         <Header/>
+      </main>
         
     </Layout>
   )

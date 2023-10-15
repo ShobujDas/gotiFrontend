@@ -14,7 +14,7 @@ import goti from "../../image/goti.jpg";
 function Footer() {
   return (
     <>
-      <footer className="container-fluid">
+      <footer>
         <div className="container">
           <div className="row ">
             <div className="col-md-3">

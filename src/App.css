@@ -3,7 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+main{
+  height: 90vh;
+}
 body h1,h2,h3,h4,h5,h6,p{
   color: whire;
 }
@@ -66,7 +68,7 @@ body h1,h2,h3,h4,h5,h6,p{
 }
 
 header{
-  height: 80vh;
+  height: 90vh;
   width: 100%;
   background:url(./image/asian.jpg) ;
   background-size: cover;
@@ -78,9 +80,11 @@ header{
 .main_header{
  width: 80%;
  background-color: white;
+ max-height: 100%;
 
 }
 .main_header .container-media{
+  height: ;
 margin-right: 40px;
 
 }
@@ -132,6 +136,10 @@ margin-right: 40px;
  padding-bottom:5px ;
 
 
+}
+footer{
+  width: 100%;
+  background: #3714c3;
 }
 footer .image img{
   width: 100%;
