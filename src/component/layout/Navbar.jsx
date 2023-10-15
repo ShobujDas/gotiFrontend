@@ -21,7 +21,9 @@ function Navbar() {
           <div className="container ">
             <div className="d-flex align-items-center justify-content-between main">
               <div className="brand">
+                <Link to='/'>
                 <img src={goti} alt="gotibangla" />
+                </Link>
               </div>
 
               <div className="last d-flex align-items-center">
